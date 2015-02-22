@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact name="client-osetrovna:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/client_osetrovna_jar</output-path>
+    <root id="root">
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="JGoodies Forms" />
+        <element id="library" level="project" name="Theme" />
+        <element id="archive" name="client-osetrovna.jar">
+          <element id="module-output" name="client" />
+          <element id="module-output" name="common" />
+          <element id="directory" name="META-INF">
+            <element id="file-copy" path="$PROJECT_DIR$/client/src/META-INF/MANIFEST.MF" />
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

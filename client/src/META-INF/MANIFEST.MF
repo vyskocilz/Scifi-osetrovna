@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: forms.jar beansbinding.jar JTattoo.jar  swingx-beaninfo-1.6.2.jar swingx-core-1.6.2.jar
+Main-Class: main.ClientApplication
+

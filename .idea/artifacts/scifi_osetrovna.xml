@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="scifi-osetrovna">
+    <output-path>$PROJECT_DIR$/out/artifacts/scifi_osetrovna</output-path>
+    <root id="archive" name="scifi-osetrovna.zip">
+      <element id="directory" name="client-osetrovna">
+        <element id="artifact" artifact-name="client-osetrovna:jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/version-osetrovna.properties" />
+        <element id="file-copy" path="$PROJECT_DIR$/client-osetrovna.bat" />
+        <element id="file-copy" path="$PROJECT_DIR$/client-osetrovna.properties" />
+      </element>
+      <element id="directory" name="server-osetrovna">
+        <element id="artifact" artifact-name="server-osetrovna:jar" />
+        <element id="file-copy" path="$PROJECT_DIR$/server-osetrovna.bat" />
+        <element id="file-copy" path="$PROJECT_DIR$/server-osetrovna.properties" />
+        <element id="file-copy" path="$PROJECT_DIR$/version-osetrovna.properties" />
+      </element>
+    </root>
+  </artifact>
+</component>
